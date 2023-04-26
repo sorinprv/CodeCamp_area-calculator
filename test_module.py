@@ -89,6 +89,8 @@ class UnitTests(unittest.TestCase):
         expected = "**\n**\n"
         self.assertEqual(actual, expected, 'Expected square picture to be different.')
 
+
+  
     def test_big_picture(self):
         self.rect.set_width(51)
         self.rect.set_height(3)
